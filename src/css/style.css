@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #F6F6F6;
+}
+
+h1 {
+    font-size: 2.6em;
+    margin: 0 5px;
+}
+
+h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    font-style: italic;
+    letter-spacing: -0.05em;
+}
+
+h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    font-size: 1.6em;
+    margin: 0 15px;
+}
+
+p,
+li {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 0.78em;
+    color: #555;
+    line-height: 1.7;
+}
+
+li {
+    /* list-style-type: circle; */
+    list-style-image: url(../images/estrela.png);
+}
+
+
+main {
+    width: 955px;
+    margin: -1px auto 10px;
+    border: 1px solid #ddd;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 955px;
+    height: 95px;
+
+
+}
+
+
+
+nav {
+    width: 955px;
+    background-color: #5D240A;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #FFF;
+    padding: 3px 35px;
+}
+
+nav ul li a:hover {
+    background-color: #B4531A;
+}
+
+article {
+    float: left;
+    margin: 10px 10px;
+    width: 600px;
+}
+
+article header hgroup h1 {
+    margin: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    font-size: 2em;
+    padding-top: 20px;
+}
+
+article header hgroup h5 {
+    margin: 0;
+    font-size: 1em;
+    color: #ccc;
+    font-weight: 100;
+}
+
+figure {
+    float: right;
+    margin-left: 5px;
+    border: 1px solid #CC6633;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+figcaption {
+    background: #CC6633;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 3px;
+    color: #fff;
+}
+
+aside {
+    float: left;
+    width: 590px;
+    border-top: 1px solid #CC6633;
+    border-bottom: 1px solid #CC6633;
+    padding: 40px 10px 0;
+    font-style: italic;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: url(../images/aspas.gif) no-repeat;
+}
+
+aside p {
+    color: #999;
+}
+
+
+
+#apoio {
+    float: right;
+    width: 300px;
+    margin-top: 10px;
+}
+
+#apoio h2 {
+    float: right;
+    margin: 3px;
+    margin-top: 10px;
+    padding-right: 55px;
+
+}
+
+#form_events {
+    float: right;
+    width: 260px;
+    height: 565px;
+    margin: 25px;
+    border: 1px solid #CC6633;
+    padding: 15px;
+}
+
+#form_contact {
+    float: left;
+    width: 460px;
+    margin: 25px;
+    border: 1px solid #CC6633;
+    padding: 15px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 3px;
+    width: 240px;
+}
+
+input:focus {
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type=submit] {
+    width: 100px;
+    color: #FFF;
+    background: linear-gradient(top, #F33, #933);
+    background: -webkit-linear-gradient(top, #F33, #933);
+    background: -moz-linear-gradient(top, #F33, #933);
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+
+
+
+
+table {
+    width: 600px;
+    margin: 0 auto;
+    border-spacing: 0;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+tr,
+td,
+th {
+    border: thin solid #ccc;
+    border-bottom: none;
+    border-right: none;
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    text-align: left;
+}
+
+caption {
+    font-size: 130%;
+    font-weight: bold;
+    padding: 5px 0;
+    background-color: #CC6633;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    color: #fff;
+}
+
+thead th {
+    text-align: center;
+    background-color: #E0E0E0;
+}
+
+thead tr th:first-child {
+    text-align: left;
+}
+
+tfoot td {
+    font-size: .9em;
+    color: #666;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(247, 247, 244);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(233, 233, 230);
+}
+
+
+
+
+label {
+    color: #acaaaa;
+    padding: 2px;
+    font-size: 10px;
+}
+
+
+
+
+#display {
+    border: 0;
+    color: #666;
+    font-size: 25px;
+}
+
+
+
+address {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #555;
+    line-height: 1.7;
+    float: left;
+    text-decoration: none;
+    margin: 10px;
+    padding-left: 20px;
+}
+
+footer {
+    clear: both;
+    width: 945px;
+    margin: 0;
+    font-size: 0.8em;
+    text-align: center;
+    background-color: #ECECEC;
+    padding: 5px;
+
+}
+
+.hrEdit {
+    width: 50%;
+    width: "1";
+    color: #E10B0F;
+}
+
+
+.friday_special {
+    float: right;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #CC6633;
+}

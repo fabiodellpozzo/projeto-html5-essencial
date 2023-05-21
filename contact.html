@@ -1,0 +1,114 @@
+<!-- projeto final html5-essencial em producao -->
+<!doctype html>
+<html lang="en">
+<!-- created 2023/05/21 -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Café Fontenebleu world-class restaurant" />
+    <meta name="author" content="Fabio Dell Pozzo">
+    <meta name="keywords" content="Francesco and Jane Bienni, San Francisco, world-class restaurant">
+    <title>Café Fontenebleu - Review</title>
+    <link href="src/css/style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="src/images/topo_principal.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="info.html">Info</a></li>
+                <li><a href="special-events.html">Special Events</a></li>
+                <li><a href="dvd.html">DVD</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <article>
+
+
+            <header>
+                <hgroup>
+                    <h1>Contact</h1>
+                    <h5>Send Contact to Cafe Fontenebleu</h5>
+
+                </hgroup>
+            </header>
+            <hr width="50%" size="1" color="#E10B0F" />
+            <h2>Enter your message</h2>
+            <div id="form_contact">
+                <form action="destino.php" method="post">
+                    <label for="nome">Name</label>
+                    <input type="text" id="nome" name="nome" placeholder="Enter your name" autofocus required>
+
+                    <label for="telefone">Telephone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Enter your phone" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+
+                    <input type="submit" id="botao" value="Enviar">
+                </form>
+            </div>
+
+            <address class="addressClass">Francesco and Jane email: <a
+                    href="contact@cafefonteneblue.com">contact@cafefonteneblue.com</a> </address>
+
+            <address class="addressClass">&nbsp;Can be Bontacted by <a href="tel:08000474493">08000474493</a> </address>
+
+
+        </article>
+
+
+        <div id="apoio">
+            <section>
+                <h2>Map</h2>
+
+                <figure>
+                    <img src="src/images/cafe-fontenebleu-map.png" width="275px" height="275px"
+                        alt="Map Cafe Fontenebleau" title="Map Cafe Fontenebleau">
+                    <figcaption>
+                        Map Cafe Fontenebleau
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Photos</h2>
+                <figure>
+                    <img src="src/images/fotos.jpg" width="275px" height="165px" alt="Pictures Dishes"
+                        title="Pictures Dishes" />
+                    <figcaption>
+                        Pictures Dishes
+                    </figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Wine</h2>
+                <figure>
+                    <img src="src/images/vinhos.jpg" width="275px" height="165px" alt="Wines" title="Wines" />
+                    <figcaption>
+                        Wines
+                    </figcaption>
+                </figure>
+            </section>
+        </div>
+
+        <footer>
+            <p>11 El Camino Real, San Francisco, CA 94103, EUA</p>
+            <p>Cafe Fontenebleu&copy 2023 - All Rights Reserved</p>
+        </footer>
+
+    </main>
+</body>
+
+</html>

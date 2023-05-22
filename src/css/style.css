@@ -28,12 +28,11 @@ h4 {
     margin: 0 15px;
 }
 
-p,
-li {
+p, li {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-size: 0.78em;
+    font-size: 0.8em;
     color: #555;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 li {
@@ -53,8 +52,40 @@ main {
 header {
     width: 955px;
     height: 95px;
+}
 
+article header hgroup h1 {
+    margin: 5px;
+    margin-left: 10px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #C63;
+    font-style: italic;
+    letter-spacing: -0.05em;
+    font-size: 2em;
+    padding-top: 5px;
+}
 
+article header hgroup h5 {
+    margin: 0;
+
+    margin-left: 10px;
+
+    font-size: 1em;
+    color: #ccc;
+    font-weight: 100;
+    
+}
+
+article p {
+    margin-left: 10px;
+
+    padding-top: -20px;
+
+    text-align: justify;
+}
+
+.textContent{
+    padding-top: -20px;
 }
 
 
@@ -91,22 +122,7 @@ article {
     width: 600px;
 }
 
-article header hgroup h1 {
-    margin: 0px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: #C63;
-    font-style: italic;
-    letter-spacing: -0.05em;
-    font-size: 2em;
-    padding-top: 20px;
-}
 
-article header hgroup h5 {
-    margin: 0;
-    font-size: 1em;
-    color: #ccc;
-    font-weight: 100;
-}
 
 figure {
     float: right;
@@ -150,27 +166,32 @@ aside p {
 
 #apoio h2 {
     float: right;
-    margin: 3px;
+    margin: 1px;
     margin-top: 10px;
     padding-right: 55px;
 
 }
 
+
 #form_events {
-    float: right;
-    width: 260px;
-    height: 565px;
+    float: left;
+    padding-left: 0px;
+
+    width: 520px;
+    height: 420px;
+
     margin: 25px;
     border: 1px solid #CC6633;
-    padding: 15px;
+    padding: 10px;
 }
 
 #form_contact {
     float: left;
-    width: 460px;
-    margin: 25px;
+    width: 520px;
+
+    margin: 20px;
     border: 1px solid #CC6633;
-    padding: 15px;
+    padding: 10px;
 }
 
 input {
@@ -179,7 +200,7 @@ input {
     border: 1px solid #999;
     padding: 5px;
     border-radius: 3px;
-    width: 240px;
+    width: 500px;
 }
 
 input:focus {
@@ -197,10 +218,6 @@ input[type=submit] {
     cursor: pointer;
 }
 
-
-
-
-
 table {
     width: 600px;
     margin: 0 auto;
@@ -208,8 +225,6 @@ table {
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
-
-
 
 tr,
 td,

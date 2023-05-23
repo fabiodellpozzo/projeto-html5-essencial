@@ -1,9 +1,15 @@
 /* CSS Document */
 html {
 
-	margin: 0; padding: 0; 
 	background-color:#F6F6F6;
 
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    
 }
 
 h1 {
@@ -121,6 +127,28 @@ article {
 		width:680px;
 		text-align: justify;
 
+}
+
+
+article header hgroup h1 {
+    
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 2em;
+    font-style: italic;
+	letter-spacing: -0.02em;
+    color: #C63;
+    
+    margin: 0px;
+    padding-top: 20px;
+}
+
+article header hgroup h5 {
+    
+    font-size: 1em;
+    font-weight: 100;
+    color: #ccc;
+    margin: 0;
+    
 }
 
 aside {

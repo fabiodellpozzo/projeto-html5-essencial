@@ -7,43 +7,48 @@
         <meta name="author" content="Fabio Dell Pozzo">
         <meta name="keywords" content="cafe fontenebleau, french cuisine, san francisco">
         <link href="src/css/estilo.css" rel="stylesheet" media="screen">
-        <title>Menu</title>
+        <title>Menu - Cafe Fontenebleau</title>
     </head>
-</head>
+    <body>
+       <main>
 
-<body>
-    <main>
         <header id="banner"></header>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="review.html">Review</a></li>
-                <li><a href="events.html">Events</a></li>
-                <li><a href="location.html">Location</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="review.html">Review</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
 
         <article>
 
-
             <header>
                 <hgroup>
-                    <h1>Menu</h1>
-                    <h5><b>Cafe Fontenebleau</b> latest restaurant venture Bon Appetit</h5>
+                    <h1>Menu Cafe Fontenebleau</h1>
+                    <h5>Francesco and Jane Bienni welcome you</h5>
                 </hgroup>
             </header>
 
 
-            <hr width="100%" size="1" color="#E10B0F" />
+            
+
+
+            <hr width="60%" size="1" color="#E10B0F" />
 
             <img src="src/images/appetizer.jpg" width="600px" height="100px" alt="" />
             <h4>Appetizers</h4>
          
             <ul>
-                <li>Roasted Tomato Soup - served with goat cheese croutons and basil puree.</li>
+                <li>
+                    <strong>Roasted Tomato Soup</strong><br>
+                    Served with goat cheese croutons and basil puree.
+                </li>
+
                 <li>Summer Salad - organic butter lettuce with apples, blood oranges, and gorgonzola, tossed with
                     raspberry vinaigrette.</li>
                 <li>Fondue of Brie, Goat Cheese, and Gruyere - served with green apples and garlic crostini. Good for
@@ -121,47 +126,79 @@
                     Recommended pairing: '98 Passi Emilio Vineyards Sauvignon Blanc.
                 </li>
             </ul>
-
+            <hr width="60%" size="1" color="#E10B0F" />
         </article>
 
         <div id="apoio">
 
             <section>
+
                 <h2>Map</h2>
+                <img    src="./src/images/cafe-fontenebleu-map.png" 
+                        width="275px"
+                        height="250px"
+                        title="cafe fontenebleu map"
+                        alt="cafe fontenebleu map"/>
 
-                <figure>
-                    <img src="src/images/cafe-fontenebleu-map.png" width="275px" height="275px"
-                        alt="Map Cafe Fontenebleau" title="Map Cafe Fontenebleau">
-                </figure>
             </section>
 
             <section>
+
                 <h2>Photos</h2>
-                <figure>
-                    <img src="src/images/fotos.jpg" width="275px" height="165px" alt="Pictures Dishes"
-                        title="Pictures Dishes" />
-                    <figcaption>
-                        Pictures Dishes
-                    </figcaption>
-                </figure>
+                <img    src="src/images/cafe-fontenebleu-pasta.png" 
+                        width="275px" 
+                        height="250px"
+                        title="cafe fontenebleu map"
+                        alt="cafe fontenebleu map"/>
+
             </section>
 
             <section>
-                <h2>Wine</h2>
-                <figure>
-                    <img src="src/images/vinhos.jpg" width="275px" height="165px" alt="Wines" title="Wines" />
-                    <figcaption>
-                        Wines
-                    </figcaption>
-                </figure>
+
+                <h2>Wines</h2>
+                <img    src="src/images/cafe-fontenebleu-wine.png" 
+                        width="275px" 
+                        height="250px" 
+                        title="cafe fontenebleu wine"
+                        alt="cafe fontenebleu wine"/>
+
             </section>
+
+            <section>
+
+                <h2 id="formSubscribeH">Subscribe</h2>
+
+                <form action="destino.php" method="post" id="formSubscribe">
+          
+                    <input  type="email" 
+                            id="email" 
+                            name="email" 
+                            size="32" 
+                            maxlength="60" 
+                            placeholder="Your Email">
+
+                    <input type="submit" id="botao" value="Register">
+
+                </form>
+
             </section>
 
         </div>
 
         <footer>
-            <p>11 El Camino Real, San Francisco, CA 94103, EUA</p>
-            <p>Cafe Fontenebleu&copy 2023 - All Rights Reserved</p>
+
+            <p>
+                11 El Camino Real, San Francisco, CA 94103, EUA
+            </p>
+
+            <p>
+
+                <small>
+                    Cafe Fontenebleau&copy Copyright 2023 - All Rights Reserved.
+                </small>
+
+            </p>
+
         </footer>
     </main>
 

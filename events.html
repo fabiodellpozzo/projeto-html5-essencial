@@ -8,6 +8,14 @@
         <meta name="keywords" content="cafe fontenebleau, french cuisine, san francisco">
         <link href="src/css/estilo.css" rel="stylesheet" media="screen">
         <title>Events - Cafe Fontenebleau</title>
+        <script>
+            var $range = document.querySelector('input'),
+                $value = document.querySelector('span');
+    
+            $range.addEventListener('input', function () {
+                $value.textContent = this.value;
+            });
+        </script>
     </head>
     <body>
         <main>
@@ -36,7 +44,46 @@
                 </header>
                 <hr width="60%" size="1" color="#E10B0F" />
 
-                
+                <div id="form_events">
+                    <h2>Our Invitation to You </h2>
+                    <form action="destino.php" method="post">
+    
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" autofocus required>
+    
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required>
+    
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+    
+                        <label for="people">How Many People</label>
+                        <input type="number" min='1' max='5' id="people" name="people" placeholder="How many people?"
+                            required>
+    
+                        <label for="date">Day for the Date</label>
+                        <input type="date" id="date" name="date">
+    
+    
+                        <label for="name_restaurant">Restaurant</label>
+                        <input type="text" list="restaurant" id="name_restaurant" name="name_restaurant"
+                            placeholder="Choose the Restaurant" autofocus required>
+    
+                        <datalist id="restaurant">
+                            <option value="Cafe Fontenebleau">Cafe Fontenebleau</option>
+                            <option value="Cafe Townsend">Cafe Townsend</option>
+                            <option value="Cafe Isabella">Cafe Isabella</option>
+                        </datalist>
+                        <label for="guests">Guests</label>
+                        <input type="range" name="guests" value="1" min="1" max="60" oninput="display.value=value"
+                            onchange="display.value=value">
+                        <input type="text" id="display" value="1" readonly>
+    
+                        <input type="submit" id="botao" value="Send">
+    
+    
+                    </form>
+                </div>
        
 
             </article>

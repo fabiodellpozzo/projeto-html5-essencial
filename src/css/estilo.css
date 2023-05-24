@@ -207,8 +207,14 @@ footer {
 		margin:0 auto; 
 		font-size:0.75em; 
 		text-align:center; 
-		background-color:#ECECEC; 
+		background-color: #5D240A;
 		padding:5px;
+
+}
+
+footer p { 
+
+color: #fff;
 
 }
 

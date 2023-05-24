@@ -36,7 +36,7 @@ h2, h4 {
 h4 { 
 
 	font-size:1.6em;
-	margin:0 5px; 
+	margin:0 10px; 
 }
 
 p, li { 
@@ -50,6 +50,17 @@ p, li {
 li {
 
 	list-style-image: url(../images/estrela.png);
+
+}
+
+hr {
+	width:50%;
+	 
+
+
+	border-width: 1px;
+	border-color: #E10B0F ; 
+	border-style: dotted;
 
 }
 

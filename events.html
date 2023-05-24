@@ -1,14 +1,13 @@
 <!-- projeto final html5-essencial em producao -->
 <!doctype html>
 <html lang="en">
-<!-- created 2023/05/21 -->
 
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Café Fontenebleu world-class restaurant" />
     <meta name="author" content="Fabio Dell Pozzo">
     <meta name="keywords" content="Francesco and Jane Bienni, San Francisco, world-class restaurant">
-    <title>Café Fontenebleu - Special Events</title>
+    <title>Events - Café Fontenebleu</title>
     <link href="src/css/estilo.css" rel="stylesheet" media="screen">
     <script>
         var $range = document.querySelector('input'),
@@ -24,16 +23,16 @@
     <main>
         <header id="banner"></header>
 
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="menu.html">Menu</a></li>
-                    <li><a href="review.html">Review</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="location.html">Location</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="review.html">Review</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
         <article>
 
@@ -43,7 +42,7 @@
                     <h5>Make Your Reservation</h5>
                 </hgroup>
             </header>
-            <hr width="50%" size="1" color="#E10B0F" />
+
             <h2>Our Invitation to You </h2>
 
             <p>
@@ -67,15 +66,14 @@
                 guests for dinner or up to 100 guests for a standing reception.
             </p>
 
-            
 
+            <img src="src/images/espaco-cafe-fontenebleu.png" width="100%" height="100%" alt="Dining Room"
+                title="Dining Room" />
 
-<img src="src/images/espaco-cafe-fontenebleu.png" width="598px" height="288px" alt="" />
-
-<p>
-    Our unique setting, highly personalized service, and memorable dining are the perfect combination for
-    your special event! Please contact us for more information!
-</p>
+            <p>
+                Our unique setting, highly personalized service, and memorable dining are the perfect combination for
+                your special event! Please contact us for more information!
+            </p>
 
 
             <div id="form_events">
@@ -83,7 +81,7 @@
                 <form action="destino.php" method="post">
 
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter Your Name" autofocus required>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name"  required>
 
                     <label for="phone">Phone</label>
                     <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required>
@@ -92,26 +90,27 @@
                     <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
 
                     <label for="people">How Many People</label>
-                    <input type="number" min='1' max='60' id="people" name="people" placeholder="How many people?"
-                        required>
+                    <input type="number" min='1' max='60' id="people" name="people" placeholder="How many people?"required>
 
                     <label for="date">Day for the Date</label>
                     <input type="date" id="date" name="date">
 
-
                     <label for="name_restaurant">Restaurant</label>
                     <input type="text" list="restaurant" id="name_restaurant" name="name_restaurant"
-                        placeholder="Choose the Restaurant" autofocus required>
+                        placeholder="Choose the Restaurant" required>
 
                     <datalist id="restaurant">
                         <option value="Cafe Fontenebleau">Cafe Fontenebleau</option>
                         <option value="Cafe Townsend">Cafe Townsend</option>
                         <option value="Cafe Isabella">Cafe Isabella</option>
                     </datalist>
+
                     <label for="guests">Guests</label>
-                    <input type="range" name="guests" value="1" min="1" max="40" oninput="display.value=value"
+
+                    <input type="range" name="guests" value="1" min="1" max="100" oninput="display.value=value"
                         onchange="display.value=value">
-                    <input type="text" id="display" value="1" readonly>
+
+                    <input type="text" id="display" value="1"  readonly>
 
                     <input type="submit" id="botao" value="Send">
 
@@ -129,15 +128,15 @@
                 event.
             </p>
 
-
-
-            
-
+            <hr width="100%" size="1" color="#E10B0F" />
 
 
 
 
-            <img id="fotoMenu" src="src/images/fotos-menu-01.png"  alt="" />
+
+
+
+            <img id="fotoMenu" src="src/images/fotos-menu-01.png" width="680px" alt="Appetizers" title="Appetizers" />
 
 
             <h4>Appetizers</h4>
@@ -166,9 +165,9 @@
                 </li>
 
             </ul>
+            <hr width="100%" size="1" color="#E10B0F" />
 
-
-            <img id="fotoMenu" src="src/images/fotos-menu-02.png"  alt="" />
+            <img id="fotoMenu" src="src/images/fotos-menu-02.png" width="680px" alt="Entrees" title="Entrees" />
 
             <h4>Entrees</h4>
 
@@ -188,8 +187,8 @@
                 </li>
             </ul>
 
-
-            <img id="fotoMenu" src="src/images/fotos-menu-03.png"  alt="" />
+            <hr width="100%" size="1" color="#E10B0F" />
+            <img id="fotoMenu" src="src/images/fotos-menu-03.png" width="680px" alt="Main Course" title="Main Course" />
             <h4>Main Course</h4>
 
             <ul>
@@ -218,37 +217,46 @@
 
 
         <div id="apoio">
+
             <section>
+
                 <h2>Map</h2>
+                <img src="./src/images/cafe-fontenebleu-map.png" width="275px" height="250px"
+                    title="cafe fontenebleu map" alt="cafe fontenebleu map" />
 
-                <figure>
-                    <img src="src/images/cafe-fontenebleu-map.png" width="275px" height="275px"
-                        alt="Map Cafe Fontenebleau" title="Map Cafe Fontenebleau">
-                </figure>
             </section>
 
             <section>
+
                 <h2>Photos</h2>
-                <figure>
-                    <img src="src/images/fotos.jpg" width="275px" height="165px" alt="Pictures Dishes"
-                        title="Pictures Dishes" />
-                    <figcaption>
-                        Pictures Dishes
-                    </figcaption>
-                </figure>
+                <img src="src/images/cafe-fontenebleu-pasta.png" width="275px" height="250px"
+                    title="cafe fontenebleu map" alt="cafe fontenebleu map" />
+
             </section>
 
             <section>
-                <h2>Wine</h2>
-                <figure>
-                    <img src="src/images/vinhos.jpg" width="275px" height="165px" alt="Wines" title="Wines" />
-                    <figcaption>
-                        Wines
-                    </figcaption>
-                </figure>
-            </section>
-        </div>
 
+                <h2>Wines</h2>
+                <img src="src/images/cafe-fontenebleu-wine.png" width="275px" height="250px"
+                    title="cafe fontenebleu wine" alt="cafe fontenebleu wine" />
+
+            </section>
+
+            <section>
+
+                <h2 id="formSubscribeH">Subscribe</h2>
+
+                <form action="destino.php" method="post" id="formSubscribe">
+
+                    <input type="email" id="email" name="email" size="32" maxlength="60" placeholder="Your Email">
+
+                    <input type="submit" id="botao" value="Register">
+
+                </form>
+
+            </section>
+
+        </div>
         </div>
 
 

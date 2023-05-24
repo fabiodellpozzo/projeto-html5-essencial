@@ -275,6 +275,16 @@ input[type=submit] {
 
 }
 
+textarea {
+
+
+	margin-bottom:10px;
+	border:1px solid #CC6633;
+	padding:8px;
+	border-radius:3px;
+	width: 85%;
+}
+
 #display{
 	border:0px solid #999;
 	font-size: 20px;

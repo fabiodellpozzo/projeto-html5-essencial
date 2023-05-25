@@ -1,47 +1,37 @@
 /* CSS Document */
 html {
-
 	background-color: #F6F6F6;
-
 }
 
 body {
-
 	margin: 0;
 	padding: 0;
-
 }
 
 h1 {
 
 	font-family: Georgia, "Times New Roman", Times, serif;
-	color: #C63;
+	font-size: 2.6em;
 	font-style: italic;
+	color: #C63;
 	letter-spacing: -0.05em;
 	text-shadow: -1px -1px, 1px 1px #777676;
-	font-size: 2.6em;
 	margin: 0 5px;
-
 }
 
-h2,
-h4 {
-
+h2, h4 {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: #C63;
 	font-style: italic;
 	letter-spacing: -0.05em;
-
 }
 
 h4 {
-
 	font-size: 1.6em;
 	margin: 0 10px;
 }
 
 p, li {
-
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 0.85em;
 	color: #7a7979;
@@ -49,67 +39,49 @@ p, li {
 }
 
 li {
-
 	list-style-image: url(../images/estrela.png);
-
 }
 
 hr {
 	width: 50%;
 	border: dotted 1px #cc6633;
-
-
 }
 
 main {
-
 	width: 1024px;
 	margin: -1px auto 10px;
 	border: 1px solid #ddd;
 	background-color: #FFF;
 	font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header {
-
 	width: 1024px;
 	height: 102px;
-
 }
 
 #banner {
-
 	background-image: url("../images/topo-principal.png");
-
 }
 
 nav {
-
-	width: 1024px;
 	background-color: #5D240A;
-
+	width: 1024px;width: 1024px;
 }
 
 nav ul {
-
 	list-style: none;
 	margin: 0;
 	padding: 0;
-
 }
 
 nav ul li {
-
 	display: inline-block;
 	margin-left: 3px;
 	align-items: center;
-
 }
 
 nav ul li a {
-
-
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1rem;
 	text-decoration: none;
@@ -119,66 +91,50 @@ nav ul li a {
 	padding: 15px 35px;
 	margin-left: 40px;
 	margin-bottom: 1px;
-
 }
 
 nav ul li a:hover {
-
 	color: #B4531A;
-
 }
 
 article {
-
 	float: left;
 	margin: 30px 20px;
 	width: 680px;
 	text-align: justify;
-
 }
 
-
 article header hgroup h1 {
-
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 2em;
 	font-style: italic;
 	letter-spacing: -0.02em;
 	color: #C63;
-
 	margin: 0px;
 	padding-top: 20px;
 }
 
 article header hgroup h5 {
-
 	font-size: 1em;
 	font-weight: 100;
 	color: #ccc;
 	margin: 0;
-
 }
 
 aside {
-
 	float: left;
 	width: 230px;
 	border-top: 1px dotted #cc6633;
 	border-bottom: 1px dotted #cc6633;
-
-
+	font-style: italic;
+	background: url(../images/aspas.gif) no-repeat;
 	padding: 40px 10px 0;
 	margin-right: 20px;
 	margin-bottom: 20px;
-	font-style: italic;
-	background: url(../images/aspas.gif) no-repeat;
-
 }
 
 aside p {
-
 	color: #999;
-
 }
 
 #aright {
@@ -197,32 +153,24 @@ aside p {
 }
 
 #apoio {
-
 	float: right;
 	width: 300px;
 	margin-top: 30px;
-
 }
 
 #diframe {
 	border: 1px dotted #C63;
-
 }
 
 img {
-
 	border: 1px dotted #C63;
 }
 
 img a {
-
 	text-decoration: none;
 }
 
-
-
 footer {
-
 	clear: both;
 	width: 1015px;
 	margin: 0 auto;
@@ -230,26 +178,20 @@ footer {
 	text-align: center;
 	background-color: #5D240A;
 	padding: 5px;
-
 }
 
 footer p {
-
 	color: #fff;
-
 }
 
 #form_events {
-
 	float: left;
 	width: 632px;
 	height: 590px;
 	margin: 5px 0;
 	border: 2px dotted #CC6633;
 	padding: 20px;
-
 	margin-bottom: 20px;
-
 }
 
 label {
@@ -258,20 +200,16 @@ label {
 }
 
 #form_contact {
-
 	float: left;
 	width: 632px;
 	height: 460px;
 	margin: 5px 0;
 	border: 2px dotted #CC6633;
 	padding: 20px;
-
 	margin-bottom: 20px;
-
 }
 
 input {
-
 	display: block;
 	margin-bottom: 10px;
 	border: 1px dotted #CC6633;
@@ -282,14 +220,11 @@ input {
 }
 
 input:focus {
-
 	border: 1px dotted #ccc;
 	outline: none;
-
 }
 
 input[type=submit] {
-
 	width: 275px;
 	color: #FFF;
 	background: linear-gradient(top, #F33, #933);
@@ -297,12 +232,9 @@ input[type=submit] {
 	background: -moz-linear-gradient(top, #F33, #933);
 	border: 1px solid #333;
 	cursor: pointer;
-
 }
 
 textarea {
-
-
 	margin-bottom: 10px;
 	border: 1px dotted #CC6633;
 	padding: 8px;
@@ -311,8 +243,6 @@ textarea {
 }
 
 textarea:focus {
-
-
 	border: 1px dotted #ccc;
 	outline: none;
 }
@@ -324,12 +254,10 @@ textarea:focus {
 }
 
 #formSubscribeH {
-
 	padding-top: 10px;
 }
 
 #formSubscribe {
-
 	padding-top: 5px;
 }
 

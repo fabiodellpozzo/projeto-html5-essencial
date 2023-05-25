@@ -170,20 +170,6 @@ img a {
 	text-decoration: none;
 }
 
-footer {
-	clear: both;
-	width: 1015px;
-	margin: 0 auto;
-	font-size: 0.75em;
-	text-align: center;
-	background-color: #5D240A;
-	padding: 5px;
-}
-
-footer p {
-	color: #fff;
-}
-
 #form_events {
 	float: left;
 	width: 632px;
@@ -264,4 +250,18 @@ textarea:focus {
 address p a {
 	text-decoration: none;
 	color: #CC6633;
+}
+
+footer {
+	clear: both;
+	width: 1015px;
+	margin: 0 auto;
+	font-size: 0.75em;
+	text-align: center;
+	background-color: #5D240A;
+	padding: 5px;
+}
+
+footer p {
+	color: #fff;
 }

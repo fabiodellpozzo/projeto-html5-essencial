@@ -40,12 +40,11 @@ h4 {
 	margin: 0 10px;
 }
 
-p,
-li {
+p, li {
 
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 0.85em;
-	color: #555;
+	color: #7a7979;
 	line-height: 1.8
 }
 
@@ -332,4 +331,9 @@ textarea:focus {
 #formSubscribe {
 
 	padding-top: 5px;
+}
+
+address p a {
+	text-decoration: none;
+	color: #CC6633;
 }

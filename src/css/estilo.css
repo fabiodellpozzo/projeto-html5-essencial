@@ -205,10 +205,18 @@ aside p {
 
 }
 
+
+
 img{
 	
 	    border: 1px solid #C63;
 }
+
+img a{
+	
+	text-decoration: none;
+}
+
 
 
 

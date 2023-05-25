@@ -1,7 +1,6 @@
-<!-- projeto final html5-essencial em producao -->
+<!-- projeto final html5-essencial concluido -->
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="description" content="Café Fontenebleu world-class restaurant" />
@@ -12,17 +11,14 @@
     <script>
         var $range = document.querySelector('input'),
             $value = document.querySelector('span');
-
-        $range.addEventListener('input', function () {
+            $range.addEventListener('input', function () {
             $value.textContent = this.value;
         });
     </script>
 </head>
-
 <body>
     <main>
         <header id="banner"></header>
-
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -44,62 +40,46 @@
             </header>
 
             <h2>Our Invitation to You </h2>
-
             <p>
-                We want to share the elegant private dining room at the <b>Cafe Fontenebleau</b> flagship restaurant
-                with you! Set in a unique, historic building in<i>San Francisco</i>, our private dining room is
-                available to host your corporate events, parties, weddings, and more.
+                We want to share the elegant private dining room at the <b>Cafe Fontenebleau</b> flagship restaurant with you! Set in a unique, historic building in<i>San Francisco</i>, our private dining room is available to host your corporate events, parties, weddings, and more.
             </p>
-
-
+            
             <p>
-                Our special events manager, sommelier, and executive chef will work with you to make sure your special
-                event is truly special. We offer multiple menu options, or we can customize a menu for you. In keeping
-                with the award-winning cuisine and exceptional service you expect, we provide place cards, personally
-                printed menus, and candles. We are also happy to help you arrange other services.
+                Our special events manager, sommelier, and executive chef will work with you to make sure your special event is truly special. We offer multiple menu options, or we can customize a menu for you. In keeping with the award-winning cuisine and exceptional service you expect, we provide place cards, personally printed menus, and candles. We are also happy to help you arrange other services.
             </p>
 
             <h2>Take a Closer Look</h2>
-
-            
-
-
-            <img src="src/images/espaco-cafe-fontenebleu.png" width="100%" height="100%" alt="Dining Room"
-                title="Dining Room" />
-
+            <img src="src/images/espaco-cafe-fontenebleu.png" width="100%" height="100%" alt="Cafe Fontenebleau Dining Room"
+                title=" Cafe Fontenebleau Dining Room" />
             <p>
                 Our private dining room provides a warm, intimate setting for your event. We can accommodate 60 seated guests for dinner or up to 100 guests for a standing reception.
             </p>
-
             <p>
                 Our unique setting, highly personalized service, and memorable dining are the perfect combination for
                 your special event! Please contact us for more information!
             </p>
-
 
             <div id="form_events">
                 <h2>Our Invitation to You </h2>
                 <form action="destino.php" method="post">
 
                     <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    <input type="text" id="name" name="name"  required>
 
                     <label for="phone">Phone</label>
-                    <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required>
+                    <input type="tel" id="phone" name="phone"  required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    <input type="email" id="email" name="email"  required>
 
                     <label for="people">How Many People</label>
-                    <input type="number" min='1' max='60' id="people" name="people" placeholder="How many people?"
-                        required>
+                    <input type="number" min='1' max='60' id="people" name="people" required>
 
                     <label for="date">Day for the Date</label>
                     <input type="date" id="date" name="date">
 
                     <label for="name_restaurant">Restaurant</label>
-                    <input type="text" list="restaurant" id="name_restaurant" name="name_restaurant"
-                        placeholder="Choose the Restaurant" required>
+                    <input type="text" list="restaurant" id="name_restaurant" name="name_restaurant" required>
 
                     <datalist id="restaurant">
                         <option value="Cafe Fontenebleau">Cafe Fontenebleau</option>
@@ -108,37 +88,26 @@
                     </datalist>
 
                     <label for="guests">Guests</label>
-
                     <input type="range" name="guests" value="1" min="1" max="100" oninput="display.value=value"
                         onchange="display.value=value">
 
                     <input type="text" id="display" value="1" readonly>
 
                     <input type="submit" id="botao" value="Send">
-
-
                 </form>
             </div>
 
             <h2 id="hSpace">Our Special Event Menu</h2>
-
             <p>
                 We've modified our normal menu for your special events.
-
                 Below are the items you can choose for your
                 event.
             </p>
 
-       
-
-
-            <img id="fotoMenu" src="src/images/fotos-menu-01.png" width="680px" alt="Appetizers" title="Appetizers" />
-
+            <img id="fotoMenu" src="src/images/fotos-menu-01.png" width="680px" alt="Cafe Fontenebleau Appetizers" title="Cafe Fontenebleau Appetizers" />
 
             <h4>Appetizers</h4>
-
             <hr />
-
             <ul>
                 <li><b>Roasted Tomato Soup</b><br>
                     Served with your choice of:
@@ -148,23 +117,18 @@
                         <li>appenzella</li>
                     </ol>
                 </li>
-
                 <li>
                     <b>Summer Salad</b><br>
                     Organic butter lettuce with apples, blood oranges, and gorgonzola, tossed with
                     raspberry vinaigrette.
                 </li>
-
                 <li>
                     <b>Crispy Flatbread</b><br>
                     Topped with asiago, prosciutto, and rocket.
                 </li>
-
             </ul>
 
-
-            <img id="fotoMenu" src="src/images/fotos-menu-02.png" width="680px" alt="Entrees" title="Entrees" />
-
+            <img id="fotoMenu" src="src/images/fotos-menu-02.png" width="680px" alt="Cafe Fontenebleau Entrees" title="Cafe Fontenebleau Entrees" />
             <h4>Entrees</h4>
             <hr />
             <ul type="square">
@@ -183,8 +147,7 @@
                 </li>
             </ul>
 
-
-            <img id="fotoMenu" src="src/images/fotos-menu-03.png" width="680px" alt="Main Course" title="Main Course" />
+            <img id="fotoMenu" src="src/images/fotos-menu-03.png" width="680px" alt="Cafe Fontenebleau Main Course" title="Cafe Fontenebleau Main Course" />
             <h4>Main Course</h4>
             <hr />
             <ul>
@@ -193,77 +156,54 @@
                     Boneless breast of chicken stuffed with fontina cheese and
                     prosciutto in white wine
                 </li>
-
                 <li>
                     <b>Pollo alla Zenzero</b><br>
                     Semi-boneless half of chicken sauteed with garlic, rosemary, mustard and sage
                     in a fresh ginger-spiked sauce
                 </li>
-
                 <li>
                     <b>Vitello Dolce Bacio</b><br>
                     Veal medallions sauteed with mixed mushrooms in a marsala wine sauce with a
                     touch of cream and chopped tomato, crowned with a jumbo shrimp
                 </li>
             </ul>
-
-
-
         </article>
 
-
         <div id="apoio">
-
             <section>
-
                 <h2>Map</h2>
                 <a href="location.html">
                     <img src="./src/images/cafe-fontenebleu-map.png" width="275px" height="250px"
-                        title="Cafe Fontenebleu map" alt="Cafe Fontenebleu map" />
+                        title="Cafe Fontenebleu Map" alt="Cafe Fontenebleu Map" />
                 </a>
             </section>
-
             <section>
-
                 <h2>Photos</h2>
                 <a href="menu.html">
                     <img src="src/images/cafe-fontenebleu-pasta.png" width="275px" height="250px"
                         title="Cafe Fontenebleu Photos" alt="Cafe Fontenebleu Photos" />
                 </a>
             </section>
-
             <section>
-
                 <h2>Wines</h2>
                 <a href="menu.html">
                     <img src="src/images/cafe-fontenebleu-wine.png" width="275px" height="250px"
                         title="Cafe Fontenebleu Wine" alt="Cafe Fontenebleu Wine" />
                 </a>
             </section>
-
             <section>
-
                 <h2 id="formSubscribeH">Subscribe</h2>
-
                 <form action="destino.php" method="post" id="formSubscribe">
-
                     <input type="email" id="email" name="email" size="32" maxlength="60" placeholder="Your Email">
-
                     <input type="submit" id="botao" value="Register">
-
                 </form>
-
             </section>
-
-
         </div>
 
         <footer>
             <p>11 El Camino Real, San Francisco, CA 94103, EUA</p>
             <p>Cafe Fontenebleu&copy 2023 - All Rights Reserved</p>
         </footer>
-
     </main>
 </body>
-
 </html>

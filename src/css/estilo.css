@@ -55,12 +55,8 @@ li {
 
 hr {
 	width:50%;
-	 
+	border:dotted 1px #cc6633; 
 
-
-	border-width: 1px;
-	border-color: #E10B0F ; 
-	border-style: dotted;
 
 }
 
@@ -166,8 +162,10 @@ aside {
 
 		float:left;
 		width:230px;
-		border-top:1px solid #cc6633;
-		border-bottom:1px solid #cc6633;
+		border-top:1px dotted #cc6633;
+		border-bottom:1px dotted #cc6633;
+
+		
 		padding: 40px 10px 0;
 		margin-right: 20px;
 		margin-bottom: 20px;
@@ -205,21 +203,20 @@ aside p {
 
 }
 
-
+#diframe{
+	border: 1px dotted #C63;
+	
+}
 
 img{
 	
-	    border: 1px solid #C63;
+	    border: 1px dotted #C63;
 }
 
 img a{
 	
 	text-decoration: none;
 }
-
-
-
-
 
 
 
@@ -244,12 +241,30 @@ color: #fff;
 #form_events {
 
     float: left;
-    width: 630px;
+    width: 632px;
     height: 590px;
     margin: 5px 0;
-    border: 5px solid #CC6633;
+    border: 2px dotted #CC6633;
     padding: 20px;
+	
+    margin-bottom: 20px;
 
+}
+
+label {
+	font-size:0.75em;
+	color: #b3afaf;
+}
+
+#form_contact {
+
+    float: left;
+    width: 632px;
+    height: 460px;
+    margin: 5px 0;
+    border: 2px dotted #CC6633;
+    padding: 20px;
+	
     margin-bottom: 20px;
 
 }
@@ -258,15 +273,16 @@ input {
 
 	    display:block;
 	    margin-bottom:10px;
-	    border:1px solid #CC6633;
+	    border:1px dotted #CC6633;
 	    padding:8px;
         border-radius:3px;
 		width: 85%;
+		color: #b3afaf;
 }
 
 input:focus {
 
-	    border:1px solid #ccc;
+	    border:1px dotted #ccc;
 	    outline:none;
 
 }
@@ -287,23 +303,31 @@ textarea {
 
 
 	margin-bottom:10px;
-	border:1px solid #CC6633;
+	border:1px dotted #CC6633;
 	padding:8px;
 	border-radius:3px;
 	width: 85%;
 }
 
+textarea:focus {
+
+
+	border:1px dotted #ccc;
+	    outline:none;
+}
+
+
 #display{
-	border:0px solid #999;
+	border:0px dotted #999;
 	font-size: 20px;
 }
 
 #formSubscribeH{
 
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 #formSubscribe{
 
-	padding-top: 10px;
+	padding-top: 5px;
 }
